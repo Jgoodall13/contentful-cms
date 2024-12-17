@@ -21,4 +21,10 @@ const projects = [
   },
 ];
 
+const space = "ood3olkji7n2";
+
+const accessToken = "WuZUfaOlLkRlLnHXjK7CbGkThpv94IxguYcU_uKdtjE";
+
+const previewAPI = "8FN697cyUqU3D2u5-LUqHezT_Deyfd_XcioC4mv22w8";
+
 export default projects;
