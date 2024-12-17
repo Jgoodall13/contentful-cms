@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { createClient } from "contentful";
 
 const client = createClient({
-  space: "ood3olkji7n2",
+  space: import.meta.env.VITE_CF_SPACE,
   environment: "master",
-  accessToken: "WuZUfaOlLkRlLnHXjK7CbGkThpv94IxguYcU_uKdtjE",
+  accessToken: import.meta.env.VITE_CF_TOKEN, // this is being silly
 });
 
 export const useFetchProjects = () => {
